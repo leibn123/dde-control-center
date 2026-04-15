@@ -112,6 +112,7 @@ Item {
     height: root.height - offset
     active: root.selected
     visible: root.selected
+    visible: root.selected
     sourceComponent: Rectangle {
         anchors.fill: parent
         radius: root.radius + 1
